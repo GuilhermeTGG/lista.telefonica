@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="app">
+        <div class="content-form">
+            <form id="app-form">
+                <div class="input-group">
+                    <input id="pessoaNome" placeholder="Digite o primeiro nome do contato" />
+                    <input id="pessoaSobrenome" placeholder="Digite o sobrenome do contato" />
+                </div>
+                <div class="input-group">
+                    <input type="number" id="pessoaTelefone" placeholder="Digite o telefone (com DDD)" />
+                    <button class="btn-app" id="btnCadastrar" type="submit">Adicionar</button>
+                    <button class="btn-app" id="btnEditar" type="button" style="display: none;">Editar</button>
+                </div>
+            </form>
+        </div>
+        <div class="content-actions">
+            <div class="content-actions-buttons">
+                <button class="btn-app" id="btnExemplo">Gerar Lista</button>
+                <button class="btn-app" id="btnOrdenar">Ordenar Lista</button>
+            </div>
+        </div>
+        <div class="content-list">
+            <div class="content-list-container">
+                <ul id="listaPessoas"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
