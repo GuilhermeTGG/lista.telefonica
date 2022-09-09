@@ -17,7 +17,7 @@ Aprimorar meus conhecimentos em programação, criando um projeto de um lista te
   
    <h2>Link</h2>
  <ul>
-   <li>https://guilhermetgg.github.io/urna-eletronica/.</li>
+   <li>https://guilhermetgg.github.io/lista.telefonica/</li>
   
     
     
